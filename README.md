@@ -30,6 +30,17 @@ All filters are for parsing logs via syslog unless otherwise noted.
 
 ###Generic CEF Logs (With and without Syslog)
 
+#Config Files
+###logstash.conf
+Main Logstash config. It references patterns.conf, which holds all of the Grok filters.
+Note: We're in the Pacific time zone. You'll want to modify the "timezone" lines to match your time zone.
+
+###patterns.conf
+The Grok filters mentioned at the start of this document.
+
+###logstash-forwarder.conf
+Config for sending logs from a Windows Sophos AV server to logstash via logstash-forwarder.
+
 #Coming Soon
 * Carbon Black and SentinelOne Grok filters
 * Configs for hoziontally scaling Logstash in AWS via ELBs, rsyslog, and Redis.
