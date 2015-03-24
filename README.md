@@ -33,6 +33,7 @@ All filters are for parsing logs via syslog unless otherwise noted.
 #Config Files
 ###logstash.conf
 Main Logstash config. It references patterns.conf, which holds all of the Grok filters.
+
 Note: We're in the Pacific time zone. You'll want to modify the "timezone" lines to match your time zone.
 
 ###patterns.conf
