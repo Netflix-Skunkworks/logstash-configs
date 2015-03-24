@@ -1,7 +1,7 @@
 # logstash-configs
 Logstash configuration files used by Netflix.
 
-The Netflix Security Team uses the ELK stack (Elasticsearch, Logstash, Kibana) for log aggregation. We collect logs from a variety of security appliances and have written custom Grok filters for Logstash to parse them. We figured we'd save everyone else the time and effort and release them here.
+The Netflix Security Team uses the ELK stack (Elasticsearch, Logstash, Kibana) for log collection. We collect logs from a variety of security appliances and have written custom Grok filters for Logstash to parse them. We figured we'd save everyone else the time and effort and release them here.
 
 Other teams within Netflix may add their configs here if there's interest.
 
